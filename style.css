@@ -1,0 +1,149 @@
+@media screen and (min-width: 767px) {
+    .contact { display: none !important;}
+    .navbar .nav-collapse { position: absolute; z-index: 1; top: 0; left: 0; right: 0; bottom: 0; margin: 0; padding-right: 10%; padding-left: 30%; width: 100%;}
+    
+}
+
+@media screen and (max-width: 767px) {
+    .contact { visibility: visible !important; }
+    .navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 15px; padding-right: 15px; display:none; } 
+    .navbar .nav-collapse { margin: 7.5px auto; padding: 0; }
+    .navbar .nav-collapse .navbar-form { margin: 0; }
+    .nav-collapse>li { float: none; }
+}
+
+@media screen and (min-width: 980px ) {
+
+   .navbar .nav-collapse { position: absolute; z-index: 1; top: 0; left: 0; right: 0; bottom: 0; margin: 0; padding-right: 10%; padding-left: 55%; width: 100%;}
+    
+}
+@media screen and (min-width: 1242px ) {
+
+   .navbar .nav-collapse { position: absolute; z-index: 1; top: 0; left: 0; right: 0; bottom: 0; margin: 0; padding-right: 10%; padding-left: 60%; width: 100%;}
+    
+}
+
+/*PICTURE IN THE BODY OF THE PAGE*/
+
+.body-pic {
+    margin-top: 8%;
+    max-width: 35%;
+    margin-bottom: 10%;
+ 
+}
+
+/*LOGO IN THE TOP LEFT CORNER OF THE SCREEN*/
+
+.logo {
+    color: #360033 !important;
+    font-family: 'Playball', cursive !important;
+}
+
+/*3 ICONS AT THE BOTTOM OF THE PAGE LARGE ICONS*/
+
+.icons {
+    max-width: 50%;
+    margin: 10%;
+    margin-top: 10%;
+}
+
+/*TEXT BELOW THE LARGE ICONS AT THE BOTTOM OF THE PAGE*/
+
+.icon-text {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10%;
+}
+
+/*ALL ICONS*/
+
+i {
+    text-align:center;
+    margin-top: 10%;
+}
+
+/*MAIN BODY CONTAINER*/
+
+.body-size {
+    padding-top: 10px;
+    margin-right: 20%;
+    margin-left: 20%;
+    color: white !important;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 200 !important; 
+    font-style: italic !important;
+}
+
+/*THIS MAKES THE GRADIENT BACKGROUND GO THE WHOLE SCREEN*/
+
+.bg-blue {
+    background: #360033 !important;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0b8793, #360033) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0b8793, #360033) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*ALL HR's*/
+
+hr {
+    background-color: white !important;
+    color: white !important;
+    height: 1px !important;
+}
+
+/*FLOATS AN ITEM RIGHT*/
+
+.pull-right {
+    margin-top: 3%;
+    float: right !important; // Use of important emulates bootstrap
+}
+
+/*BACKGROUND OF THE NAVBAR AND BOTTOM ELEMENTS*/
+
+.background {
+    color: white !important;
+    font-family: 'Roboto', sans-serif;
+    background-color: #360033 !important;
+    border-color: #360033 !important;
+}
+
+/*MAIN BODY FONT AND STYLE*/ 
+
+.welcome {
+    color: white !important;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 800 !important; 
+    font-style: italic !important;
+    margin-bottom: 15%;
+}
+
+/*NAVBAR ELEMENTS*/
+
+.navbar-default {
+    border-color: white !important;
+}
+.navbar {
+    background-color: white !important;
+    border: 0px !important
+    border-color: white !important;
+}
+.navbar-brand { position: relative; z-index: 2; }
+
+.navbar-nav.navbar-right .btn { position: relative; z-index: 2; padding: 4px 20px; margin: 10px auto; }
+
+.navbar .navbar-collapse { position: relative; }
+.navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 22px; }
+
+.navbar .nav-collapse { position: absolute; z-index: 1; top: 0; left: 0; right: 0; bottom: 0; margin: 0; padding-right: 10%; padding-left: 50%; width: 100%; }
+.navbar.navbar-default .nav-collapse { background-color: white !important; }
+.navbar.navbar-inverse .nav-collapse { background-color: white !important; }
+.navbar .nav-collapse .navbar-form { border-width: 0; box-shadow: none; }
+.nav-collapse>li { float: right; }
+
+.btn.btn-circle { border-radius: 50px; }
+.btn.btn-outline { background-color: transparent; }
+
+.nav-height {
+    margin-top: 1%;
+}
+.navbar-brand {
+    padding: 0px !important;
+}
